@@ -5,7 +5,7 @@ An all-in-one platform that solves the age-old hospital chaos of **multiple doct
 ## 🎥 **Demo Videos**  
 
 ### 👉 **[Watch Demo Video](https://www.loom.com/share/e4a6c90c1dbe478697bcd03533f7fc73?sid=7b5cd5a5-2a59-4d11-ae7a-f38fead9b341)**  
-### [![Watch the demo](screenshots/demo_thumbnail.png)](https://github.com/your-repo-link/demo.mp4)  
+### [![Watch the demo](screenshots/demo_thumbnail.png)](https://drive.google.com/file/d/1-DJBmOk3XUSwjyEG8wl8cHqfzrFwiOPE/view)    
 *(Click the image to watch the demo)*  
 
 ---
