@@ -2,10 +2,13 @@
 
 An all-in-one platform that solves the age-old hospital chaos of **multiple doctors fighting for the same OT slot** 🏥. With our system, **double-bookings vanish, schedules become crystal clear, and operations run smoothly**.  
 
-👉 **[🎥 Watch Demo Video](https://www.loom.com/share/e4a6c90c1dbe478697bcd03533f7fc73?sid=7b5cd5a5-2a59-4d11-ae7a-f38fead9b341)**  
+## 🎥 **Demo Videos**  
+
+### 👉 **[Watch Demo Video](https://www.loom.com/share/e4a6c90c1dbe478697bcd03533f7fc73?sid=7b5cd5a5-2a59-4d11-ae7a-f38fead9b341)**  
+### [![Watch the demo](screenshots/demo_thumbnail.png)](https://github.com/your-repo-link/demo.mp4)  
+*(Click the image to watch the demo)*  
 
 ---
-
 
 ## 📸 Screens & Features  
 
@@ -21,6 +24,30 @@ Doctors get a **clear overview** of all available slots, their bookings, and ove
 
 ---
 
+### 📅 Day View – OT Calendar  
+![Day View Screenshot](screenshots/day_view.png)  
+Quickly view and manage **daily OT schedules** with clarity on available slots and occupied timings.  
+
+---
+
+### 🧑 Select Patient  
+![Select Patient Screenshot](screenshots/select_patient.png)  
+Search and select patients quickly for scheduling or reviewing their records.  
+
+---
+### ➕ Add Patient  
+![Add Patient Screenshot](screenshots/add_patient.png)  
+Doctors can add new patients with detailed information including medical history, emergency contacts, and hospital stay details.  
+
+---
+
+
+
+### ✅ Patient Confirmation  
+![Patient Confirmation Screenshot](screenshots/patient_confirmation.png)  
+Before finalizing surgery slots, doctors/admins can **review patient details** including medical history, allergies, and emergency contacts.  
+
+---
 ### 📅 Slot Booking Calendar  
 ![Slot Booking Screenshot](screenshots/slot_booking.png)  
 A dynamic calendar where doctors can:  
@@ -30,9 +57,9 @@ A dynamic calendar where doctors can:
 
 ---
 
-### 🧑‍🤝‍🧑 Patients – My Bookings  
+### 🧑‍🤝‍🧑 Doctors – My Bookings  
 ![My Bookings Screenshot](screenshots/patient_bookings.png)  
-Patients’ booking history is maintained, showing upcoming surgeries, completed ones, and any cancellations. This ensures transparency and better hospital-patient communication.  
+Doctor's booking history is maintained, showing upcoming surgeries, completed ones, and any cancellations. This ensures transparency and better hospital-doctor communication.  
 
 ---
 
@@ -44,12 +71,15 @@ Doctors and admins can manage their profiles — update personal details, change
 
 ### 🛠️ Admin Dashboard  
 ![Admin Dashboard Screenshot](screenshots/admin_dashboard.png)  
+![Admin Dashboard View 2](screenshots/admin_dashboard2.png)  
+![Admin Dashboard View 3](screenshots/admin_dashboard3.png)  
+![Admin Dashboard View 4](screenshots/admin_dashboard4.png)  
+
 Admins have complete control:  
 - See all doctor bookings in real time  
 - Track slot utilization (active, cancelled, completed surgeries)  
 - Manage doctors and patient data  
 - Keep the OT scheduling **organized and conflict-free**  
-
 ---
 
 
