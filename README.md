@@ -1,73 +1,128 @@
-# Welcome to your Lovable project
+# 🚑 Operation Theater Management System  
 
-## Project info
+An all-in-one platform that solves the age-old hospital chaos of **multiple doctors fighting for the same OT slot** 🏥. With our system, **double-bookings vanish, schedules become crystal clear, and operations run smoothly**.  
 
-**URL**: https://lovable.dev/projects/763f9af6-226f-4678-b504-df2be1c5e8a8
+👉 **[🎥 Watch Demo Video](https://www.loom.com/share/e4a6c90c1dbe478697bcd03533f7fc73?sid=7b5cd5a5-2a59-4d11-ae7a-f38fead9b341)**  
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
 
-**Use Lovable**
+## 📸 Screens & Features  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/763f9af6-226f-4678-b504-df2be1c5e8a8) and start prompting.
+### 🔑 Sign In / Sign Up & Authentication  
+![Sign In Screenshot](screenshots/signin.png)  
+Secure login and signup system for doctors and admins. Only authenticated users can access the booking system, ensuring data privacy and safe access.  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+### 👨‍⚕️ Doctor Dashboard Preview  
+![Doctor Dashboard Screenshot](screenshots/doctor_dashboard.png)  
+Doctors get a **clear overview** of all available slots, their bookings, and overall OT usage. The dashboard shows quick stats like total bookings, completed, cancelled, and available slots.  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 📅 Slot Booking Calendar  
+![Slot Booking Screenshot](screenshots/slot_booking.png)  
+A dynamic calendar where doctors can:  
+- View slots in **day, week, or month mode**  
+- Instantly book an available slot with one click  
+- See other doctors’ bookings clearly to avoid clashes  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🧑‍🤝‍🧑 Patients – My Bookings  
+![My Bookings Screenshot](screenshots/patient_bookings.png)  
+Patients’ booking history is maintained, showing upcoming surgeries, completed ones, and any cancellations. This ensures transparency and better hospital-patient communication.  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+### ⚙️ Profile Settings  
+![Profile Settings Screenshot](screenshots/profile_settings.png)  
+Doctors and admins can manage their profiles — update personal details, change password, and configure preferences easily.  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+### 🛠️ Admin Dashboard  
+![Admin Dashboard Screenshot](screenshots/admin_dashboard.png)  
+Admins have complete control:  
+- See all doctor bookings in real time  
+- Track slot utilization (active, cancelled, completed surgeries)  
+- Manage doctors and patient data  
+- Keep the OT scheduling **organized and conflict-free**  
+
+---
+
+
+## ✨ Features That Make It Stand Out  
+
+✅ **Real-time OT Slot Booking** – Doctors can book slots instantly without clashes.  
+✅ **Conflict-Free Scheduling** – Prevents double-bookings automatically 🚫.  
+✅ **Daily / Weekly / Monthly Calendar Views** – See the bigger picture at a glance 📅.  
+✅ **Live Availability Tracker** – Shows booked, available, active, cancelled, and completed surgeries in real time.  
+✅ **One-Click Booking** – A clean “Book Slot” button makes reservations effortless ⚡.  
+✅ **Doctor Details with Departments** – Every booking clearly shows doctor name & department 👨‍⚕️👩‍⚕️.  
+✅ **Responsive UI** – Works smoothly on desktops, tablets, and mobiles 📱💻.  
+✅ **Authentication Ready (Future Scope)** – Role-based logins for doctors, admins, and staff.  
+✅ **Scalable Database** – Built on PostgreSQL via Supabase for reliable performance.  
+
+---
+## 🛠️ Tech Stack  
+  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+  ![React (JSX)](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+  ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E)
+  ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+  ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+  ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white)
+- **Frontend:** TypeScript + JSX + React (powered by Vite) ⚡  
+- **Backend:** Node.js + Express (auto-managed APIs) 🌐  
+- **Database:** PostgreSQL (Supabase) 🗄️  
+- **Hosting & Deployment:** Supabase + Vercel/Netlify 🚀  
+- **Version Control:** Git + GitHub 🔗  
+
+---
+
+## 🚀 Getting Started  
+
+Want to run it on your machine? It’s CRAZY SIMPLE. Just follow these steps:  
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/kmshirishadeva/OT_management.git
+
+# 2️⃣ Go into the project folder
+cd OT_management
+
+# 3️⃣ Install dependencies (skip node_modules headaches 🙌)
+npm install
+
+# 4️⃣ Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🌟 Why This Project is Helpful  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+✅ **Prevents Double Bookings** – Eliminates scheduling clashes by restricting duplicate slot reservations.  
+✅ **Transparent Slot Availability** – Doctors can instantly see which slots are free or occupied.  
+✅ **Centralized Admin Control** – Admins manage doctors, bookings, and OT usage from one dashboard.  
+✅ **Improved Patient Care** – Smooth OT management = fewer delays and better hospital experience ❤️.  
+✅ **Real-World Validation** – Designed and implemented during my internship at **PiHealth Cancer Hospital**.  
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🔮 Future Enhancements  
 
-## What technologies are used for this project?
+✅ **Role-Based Authentication** – Separate logins for Admin, Doctor, and Staff 👨‍⚕️👩‍⚕️.  
+✅ **Notification System** – Email/SMS reminders to doctors & patients for upcoming surgeries 📩.  
+✅ **Analytics Dashboard** – Detailed usage stats, reports, and hospital insights 📊.  
+✅ **Patient-Side View** – Patients can track surgery status and updates in real time 👥.  
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 👩‍💻 Author  
 
-## How can I deploy this project?
+👤 **Shirisha Deva**  
+🚀 Passionate about building impactful solutions  
+🏥 Built as part of **Internship at PiHealth Cancer Hospital**  
+🌍 [GitHub Profile](https://github.com/kmshirishadeva)  
 
-Simply open [Lovable](https://lovable.dev/projects/763f9af6-226f-4678-b504-df2be1c5e8a8) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
